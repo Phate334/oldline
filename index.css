@@ -1,0 +1,11 @@
+body {
+    background: lightslategray;
+}
+#input-area {
+    text-align: center;
+}
+#text {
+    width: 80%;
+    height: 250px;
+    margin: 5%;
+}

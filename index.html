@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>OldLine</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link href="index.css" rel="stylesheet"" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="index.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#text").on("mousemove",replaceNewline);
+        });
+    </script>
 </head>
-<body onmouseover="replaceNewline();">
-    <textarea id="text" autofocus="true" oninput=""></textarea>
+<body>
+    <div id="input-area">
+        <textarea id="text" autofocus="true" oninput=""></textarea>
+    </div>
 </body>
 </html> 
